@@ -1,0 +1,18 @@
+/* Restablecer estilos del navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 100px;
+    background-color: skyblue;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.caja h1 {
+    background-color:  red;
+}

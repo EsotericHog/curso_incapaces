@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    background-color: yellow;
+}
+
+.elemento {
+    background-color: red;
+}
+
+.container2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /*padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    padding-right: 30px;*/
+
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+}
+.elemento2 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}

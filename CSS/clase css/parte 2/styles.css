@@ -1,0 +1,14 @@
+h1 {
+    background-color: red;
+    display: inline;
+}
+
+span {
+    background-color: blue;
+    display: block;
+}
+
+p {
+    display: inline;
+    background-color:yellow;
+}

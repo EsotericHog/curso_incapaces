@@ -1,0 +1,52 @@
+selector {
+    propiedad:valor;
+}
+
+/* Selector universal
+* {
+    color: yellow;
+}
+
+*/
+
+/* Selección por elemento */
+header {
+    background-color: green;
+}
+
+/* Selección por clase */
+.clase1 {
+    color: blueviolet;
+    background-color: aqua;
+}
+
+/* Selección por ID */
+#boton1 {
+    font-family: 'Courier New';
+}
+
+.clase_2 {
+    color: orange;
+}
+
+div h3 {
+    color: pink;
+}
+
+.contenedor1 .titulo4 {
+    background-color: green;
+    font-size: 30px;
+    font-family:'Courier New';
+}
+
+.titulo4 {
+    background-color: red;
+}
+
+.contenedor {
+    background-color: brown;
+}
+
+.contenedor :first-child {
+    background-color: yellowgreen;
+}
