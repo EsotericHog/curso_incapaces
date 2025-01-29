@@ -1,0 +1,13 @@
+.lista {
+    background-color: pink;
+}
+
+.lista__item {
+    color: blue;
+}
+
+.item--importante {
+    font-family: "Bebas Neue";
+    font-weight: 600;
+    color: green;
+}

@@ -1,0 +1,42 @@
+.caja_block {
+    background-color: red;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.caja_inline {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: blue;
+    display: inline;
+}
+
+.caja_inline_block {
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.caja_none {
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    display: none;
+}
+
+.caja_flex {
+    background-color: violet;
+    width: 150px;
+    height: 300px;
+    display: flex;
+}
+
+.caja_grid {
+    background-color: yellow;
+    width: 100px;
+    height: 90px;
+    display: grid;
+}

@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.caja_static {
+    position: static;
+}
+
+.caja_relative {
+    position: relative;
+    background-color: red;
+    width: 100px;
+    height: 150px;
+}
+
+.caja_absolute {
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.caja_fixed {
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.caja_sticky {
+    background-color:  brown;
+    width: 200px;
+    height: 150px;
+    position: sticky;
+    top: 0;
+}

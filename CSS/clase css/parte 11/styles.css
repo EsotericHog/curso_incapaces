@@ -1,0 +1,7 @@
+.erizo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    object-fit: contain;
+    object-position: 30% 70%;
+}

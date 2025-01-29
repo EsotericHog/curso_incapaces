@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* PIXELES */
+.parrafo {
+    background-color: red;
+    width: 300px;
+}
+
+/* PORCENTAJE */
+.container {
+    background-color: blue;
+    margin-top: 20px;
+    width: 50%;
+}
+
+/* EM */
+.contenedor_de_titulo {
+    font-size: 25px;
+}
+
+/* REM */
+.titulo2 {
+    font-size: 1.5em;
+}
+
+html {
+    font-size: 10px;
+}
+
+.titulo3 {
+    font-size: 3rem;
+}
+
+.caja {
+    background-color: green;
+    width: 100vw;
+    height: 30vh;
+}
