@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.flexbox {
+    padding: 10px;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    background-color: red;
+}
+
+.flex-item {
+    width: 200px;
+    background-color: greenyellow;
+    text-align: center;
+}
