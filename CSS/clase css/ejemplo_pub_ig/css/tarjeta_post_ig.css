@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 /* TARJETA PRINCIPAL */
@@ -29,27 +30,23 @@
     padding: 5px;
     height: 100%;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    font-size: 12px;
 }
 
 .card_post__photo {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .card_post__opciones {
     display: flex;
-    width: 40px;
+    width: 10px;
     height: 100%;
     justify-content: center;
     align-items: center;
-}
-
-.card_post__icon {
-    width: 20px;
-    height: auto;
 }
 
 /* --------------------------------------------- */
@@ -70,31 +67,34 @@
     display: flex;
     justify-content: space-between;
     padding: 5px 5px;
+    gap: 5px;
 }
 
 .card_post__iconos {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 100%;
-    width: auto;
-    padding: 0 10px;
-    gap: 10px;
+    width: 85px;
+    padding: 0 5px;
+    gap: 5px;
 }
 
 .card_post__paginacion {
     display: flex;
-    width: 40px;
+    flex: 1;
     height: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .card_post__save_icon {
-    width: 40px;
+    flex: 0.7;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding: 0 10px;
 }
 
 /* --------------------------------------------- */
@@ -105,34 +105,34 @@
     width: 100%;
     height: 100px;
     gap: 3px;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .card_post__total_likes {
     width: 100%;
     height: 15px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .card_post__username_descripcion {
     width: 100%;
     height: 20px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card_post__ver_comentarios {
     width: 100%;
     height: 20px;
-    font-size: 12px;
+    font-size: 11px;
     color: rgb(79, 79, 79);
 }
 
 .card_post__fecha {
     width: 100%;
     height: 20px;
-    font-size: 10px;
+    font-size: 9px;
     color: rgb(107, 107, 107);
 }
 
